@@ -1,3 +1,9 @@
+import { Layout } from '@/layout';
+
 export const Home = () => {
-	return <div>Home page</div>;
+	return (
+		<Layout>
+			<div>Home page</div>
+		</Layout>
+	);
 };
